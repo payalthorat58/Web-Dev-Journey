@@ -1,24 +1,54 @@
-/* Homework Question */
-
-p{
-    color: red;
-    line-height: 30px;
+h4{
+    text-align: center;
+    background-color: blanchedalmond;
+    font-weight: lighter;
+    text-decoration: underline;
+    line-height: normal;
+    
 }
-body{
-    text-align:center;
-    font-family:Georgia;
-}
-a{
-    color:green;
-    text-decoration:none;
+ul,ol,p,a,table,form{
+    color: maroon;
 }
 button{
-    color:white;
-    background-color: blueviolet;
+    background-color:bisque;
 }
-textarea{
-    font-color:black;
+*{
+    font-family:cursive;
+
 }
-h1{
-    text-decoration: underline;
+#username, #age, #search_query{
+    font-weight: lighter;
+}
+label{
+    font-weight:bolder;
+   
+}
+hr+p,br+p{
+    font-weight:bolder;
+}
+input[type="checkbox"]+label,input[type="radio"]+label{
+color:rgb(217, 208, 30);
+}
+select>option{
+    color:maroon;
+}
+input[type="checkbox"]+label:hover,input[type="radio"]+label:hover{
+color:pink;
+}
+input[type="checkbox"]:checked+label,input[type="radio"]:checked+label{
+color:green;
+}
+label:hover{
+    color:pink;
+}
+hr+p:hover,br+p:hover{
+    color:pink
+}
+
+ul,ol,p,a,table,form:selection{
+    color:green;
+}
+h4::first-letter{
+    font-weight: bold;
+    font-size:x-large;
 }

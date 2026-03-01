@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
        <h4>Unordered List</h4>
@@ -71,7 +71,7 @@
         </tr>
     </table>
 
-    <h4>Forms in HTML</h4>
+    <h4>Forms in HTML (hover is pink)</h4>
     <form action="https://www.youtube.com/results?">
         <label for="username">Username</label>
         <input type="text" placeholder="Enter username" id="username" name="username">
@@ -87,15 +87,15 @@
         <button type="submit">Search</button>
         <hr>
 
-        <p>Enter your preferences!</p> 
+        <p>Enter your preferences! (hover is pink & checked is green)</p> 
         
-        <input type="checkbox" id="choice1" name="dog person">
+        <input type="checkbox" id="choice1" name="dog person" >
         <label for="choice1">I am a dog person</label>
         <input type="checkbox" id="choice2" name="cat person">
         <label for="choice2">I am a cat person</label>
 
         <hr>
-        <p>Enter your preferences!(Strict version, you can only select one)</p> 
+        <p>Enter your preferences!(Strict version, you can only select one also, hover is pink & checked is green)</p> 
         
         <input type="radio" id="rc1" name="refreshments">
         <label for="rc1">I am a tea person</label>
@@ -105,11 +105,12 @@
         <br>
 
         <p>Now select your favourite distraction</p>
-        <select>
+        <select id="distractions">
             <option>Anime</option>
             <option>K-drama</option>
             <option>Social Media</option>
         </select>
+        <br>
         <p>On Scale of 1 to 100, how distracted are you?</p>
         <input type="range" min="0" max="100">
 
